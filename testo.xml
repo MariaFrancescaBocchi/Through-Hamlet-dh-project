@@ -1,0 +1,264 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Amleto. Tragedia in 5 atti, versione e-book.</title>
+				<author>William Shakespeare (1564-1616)</author>
+				<respStmt>
+					<resp>traduzione</resp>
+					<resp>annotazione</resp>
+					<name xml:id="GR">Goffredo Raponi</name>
+				</respStmt>
+				<respStmt>
+					<resp>codifica TEI</resp>
+					<name xml:id="MFB">Maria Francesca Bocchi</name>
+				</respStmt>
+				<sponsor>Festina Lente C.I.R.S.A.</sponsor>
+				<sponsor>www.e-text.it</sponsor>
+			</titleStmt>
+			<editionStmt>
+				<edition n="3.0">
+					<title>Terza edizione elettronica</title>
+					<date when="2016-08-16">16 agosto 2016</date>
+				</edition>
+				<respStmt>
+					<resp>revisione</resp>
+					<name xml:id="CP">Claudio Paganelli</name>
+					<name xml:id="CR">Catia Righi</name>
+					<name xml:id="GM">Giulio Mazzolini</name>
+					<name xml:id="US">Ugo Santamaria</name>
+				</respStmt>
+				<respStmt>
+					<resp>impaginazione</resp>
+					<name xml:id="CR">Catia Righi</name>
+					<name xml:id="MR">Massimo Rosa</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher xml:id="MC">Marco Calvo</publisher>
+				<distributor>Associazione culturale Liber Liber, progetto Manuzio</distributor>
+				<adress>
+					<adressLine>www.liberliber.it</adressLine>
+				</adress>
+				<idno type="ISBN e-book">9788897313663</idno>
+				<availbility status="free">
+					<licence>Questo testo è distribuito con la licenza <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons "Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale"</ref>.</licence>
+				</availbility>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><author>William Shakespeare</author>, <title>The complete works</title>,<pubPlace>London and Glasgow</pubPlace>:<publisher>Collins</publisher>, <date when="1960">1960</date> - <extent>XXXII</extent>, <extent>1376 p.</extent>.
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="preface" resp="#GR">
+				<head>Note preliminari</head>
+				<list>
+					<item>1. Il testo inglese adottato per la traduzione è quello dell’edizione curata dal prof. Peter Alexander (William Shakespeare, <title lang="en">The Complete Works</title>, Col-lins, London and Glasgow, 1951-60, pagg. XXXII – 1370), con qualche variante suggerita da altri testi, in particolare quello della più recente edi-zione dell’<title lang="en">“Oxford Shakespeare”</title> curata da G. Welles and G. Taylor per la Clarendon Press, New York, U.S.A., 1988 – 1994, pagg. XLIX, 1274; quest’ultima comprende anche <title>“I due cugini” (<foreing lang="en">“The Two Kinsmen”</foreing>)</title> che manca nell’Alexander.</item>
+					<item>2. Il traduttore ha aggiunto di sua iniziativa alcune didascalie e indicazioni sceniche (<foreing lang="en">“stage instructions”</foreing>) laddove le ha ritenute opportune per la migliore comprensione della azione scenica <emph>alla lettura</emph>, cui questa traduzione è essenzialmente concepita ed ordinata, il traduttore essendo con-vinto della irrappresentabilità del teatro shake-speariano sulle ribalte del teatro moderno. Si è lasciata comunque invariata, all’inizio e alla fine della scena, o all’entrata ed uscita dei personaggi nel corso della stessa scena, la rituale indicazione <foreing lang="en">“Enter”</foreing> (“Entra/Entrano”) ed <foreing lang="en">“Exit/Exeunt”</foreing> (“Esce/Escono”); avvertendo peraltro che non sempre essa indica movimenti di entrata/uscita, potendosi dare che i personaggi cui si riferisce si trovino già in scena all’apertura, o vi restino alla chiusura.</item>
+					<item>3. Il metro è l’endecasillabo sciolto, alternato da settenari. Altro metro si è usato per citazioni, canzoni, cabalette e altro, quando, in accordo con il testo originale, sia stato richiesto uno stacco di stile.</item>
+					<item>4. I nomi dei personaggi che si prestano alla italianizzazione sono resi nella forma italiana; quando preceduti da “sir” sono lasciati comunque nella forma inglese. Per esigenze di metrica, i nomi inglesi di più sillabe, che alla pronuncia inglese suonano sdruccioli, bisdruccioli e perfino trisdruccioli – come tutte le parole di questa lingua mono-bisillabica – possono essere diversamente accentati nel corpo del verso, secondo la cadenza del verso stesso.</item>
+					<item>5. Il traduttore riconosce d’essersi avvalso di traduzioni precedenti, in particolare della prima versione poetica di Giulio Carcano, di quelle del Lodovici, del Baldini, del Melchiori, del Lombardo, del D’Agostino e di altri, dalle quali ha preso in prestito, oltre all’interpretazione di passi contro-versi, intere frasi e costrutti, dandone opportuno credito in nota.</item>
+				</list>
+			</div>
+			<div n="castlist" type="Personaggi">
+				<castList>
+					<head>PERSONAGGI</head>
+					<castItem>
+						<role xml:id="cl">CLAUDIO</role>
+						<roleDesc>re di Danimarca e zio di Amleto</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="ge">GERTRUDE</role>
+						<roleDesc>sua regina e madre di Amleto</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="am">AMLETO</role>
+						<roleDesc>figlio del re defunto e nipote di Claudio</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="or">ORAZIO</role>
+						<roleDesc>suo amico e consigliere</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="fo">FORTEBRACCIO</role>
+						<roleDesc>principe ereditario di Norvegia</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="po">POLONIO</role>
+						<roleDesc>ciambellano del regno di Danimarca</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="la">LAERTE</role>
+						<roleDesc>suo figlio</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="of">OFELIA</role>
+						<roleDesc>sua figlia</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="ri">RINALDO</role>
+						<roleDesc>suo servitore</roleDesc>
+					</castItem>
+					<castGroup>
+						<head>Cortigiani</head>
+						<castItem>
+							<role xml:id="vo">VOLTIMANDO</role>
+						</castItem>
+						<castItem>
+							<role xml:id="co">CORNELIO</role>
+						</castItem>
+						<castItem>
+							<role xml:id="ro">ROSENCRANTZ</role>
+						</castItem>
+						<castItem>
+							<role xml:id="gu">GUILDENSTERN</role>
+						</castItem>
+						<castItem>
+							<role xml:id="os">OSRICO</role>
+						</castItem>
+					</castGroup>
+					<castItem>
+						<role xml:id="sac">Un SACERDOTE</role>
+					</castItem>
+					<castGroup>
+						<head>ufficiali dell’esercito danese</head>
+						<castItem>	
+							<role xml:id="mar">MARCELLO</role>
+						</castItem>
+						<castItem>
+							<role xml:id="be">BERNARDO</role>
+						</castItem>			
+					</castGroup>
+					<castItem>
+						<role xml:id="fr">FRANCESCO</role>
+						<roleDesc>soldato danese</roleDesc>
+					</castItem>
+					<castItem>
+						<role xml:id="cap">Un CAPITANO dell’esercito norvegese</role>
+					</castItem>
+					<castItem>	
+						<role xml:id="amb">Ambasciatori d’Inghilterra</role>
+					</castItem>
+					<castItem>
+						<role xml:d="att">Attori d’una compagnia girovaga</role>
+					</castItem>
+					<castItem>
+						<role xml:id="buf">Un BUFFONE</role>
+					</castItem>
+					<castItem>
+						<role xml:id="bec">Due BECCHINI</role>
+					</castItem>
+					<castItem>
+						<role xml:id="spe">Lo SPETTRO del padre di Amleto</role>
+					</castItem>
+					<castItem type="list">
+						<roleDesc>Dame</roleDesc>
+						<roleDesc>Gentiluomini</roleDesc>
+						<roleDesc>Ufficiali</roleDesc>
+						<roleDesc>Soldati</roleDesc>
+						<roleDesc>Marinai</roleDesc>
+						<roleDesc>Messaggeri</roleDesc>
+						<roleDesc>Persone di servizio</roleDesc>
+					</castItem>
+				</castList>
+			</div>
+		</front>
+		<body>
+			<!-- atti precedenti -->
+			<div type="act" n="4" xml:id="A4">
+				<head>Atto Quarto</head>
+				<!-- scene precedenti -->
+				<div type="scene" n="7" xml:id="A4S7">
+					<head>Scena VII - La stessa.</head>
+					<stage type="entrance" who="#ge">Entra la REGINA</stage>
+					<sp who="#ge" xml:id="ge1">
+						<speaker>REGINA</speaker>
+						<lg>
+						 	<l>Una <w xml:id="n1" type="noun"  resp="#MFB">disgrazia</w> <w xml:id="v1" type="verb" lemma="incalzare">incalza</w> alle <w xml:id="n2" type="noun">calcagna</w></l>					
+							<l>un’altra, <w xml:id="a1" type="adjective">tanto</w> presto <seg xml:id="v2" type="verb" lemma="succedersi">si succedono</seg>.</l>
+							<l>Laerte, tua <w xml:id="n3" type="noun">sorella</w> s’<seg xml:id="v3" type="verb" lemma="annegare">è annegata</seg>.</l>
+						</lg>
+					</sp>
+					<sp who="#la" xml:id="la1">
+						<speaker>LAERTE</speaker>
+						<l><w xml:id="v4" type="verb" lemma="annegare">Annegata</w>! Ah, dove?</l>
+					</sp>
+					<sp who="#ge" xml:id="ge2">
+						<speaker>REGINA</speaker>
+						<lg>
+							<l>C’<w xml:id="v5" type="verb" lemma="essere">è</w> un <w xml:id="n4" type="noun">salice</w> che <w xml:id="v6" type="verb" lemma="crescere">cresce</w> di traverso</l>
+							<l>ad un <w xml:id="n5" type="noun">ruscello</w> e <w xml:id="v7" type="verb" lemma="specchiare">specchia</w> le sue <w xml:id="n6" type="noun">foglie</w></l>
+							<l>nella <w xml:id="a2" type="adjective">vitrea</w> <w xml:id="n7" type="noun">corrente</w>;<note n="130" place="foot" type="editorial" resp="#GR"> Il motivo del salice, simbolo dell’amore casto e sventurato, è ricorrente nella poetica elisabettiana, ed in Shakespeare in particolare. Così in <title>“Otello”</title>, IV, 2, 51-58; e in <title>“Tanto trambusto per nulla”</title>, II, 1, 57.</note>  qui ella <w xml:id="v8" tye="verb" lemma="venire">venne</w>,</l>
+							<l>il <w xml:id="n8" type="noun">capo</w> <w xml:id="a3" type="adjective">adorno</w> di <w xml:id="a4" type="adjective">strane</w> <w xml:id="n9" type="noun">ghirlande</w></l>
+							<l>di <w xml:id="n10" type="noun">ranuncoli</w>, <w xml:id="n11" type="noun">ortiche</w>, <w xml:id="n12" type="noun">margherite</w></l>
+							<l>e di quei <w xml:id="a5" type="adjective">lunghi</w> <w xml:id="n13" type="noun">fiori</w> <w xml:id="n14" type="noun">color</w> <w xml:id="a6" type="adjective">porpora</w><note n="131" place="foot" type="editorial" resp="#GR"><foreing lang="en">“... and long purples”</foreing>: non si tratta esattamente di orchidee – come intendono alcuni – ma di lunghi fiori color viola (<foreing lang="lat">“Orchis mascula”</foreing>) che crescono spontanei.</note></l>
+							<l>che i <w xml:id="a7" type="adjective">licenziosi</w> <w xml:id="n15" type="noun">poeti</w> <w xml:id="a8" type="adjective">bucolici</w></l>
+							<l><w xml:id="v9" type="verb" lemma="designare">designano</w> con più <w xml:id="a9" type="adjective">corrivo</w> <w xml:id="n16" type="noun">nome</w><note n="132" place="foot" type="editorial" resp="#GR"><foreing lang="en">“... that liberal shepherds give a grosser name”</foreing>: s’indicavano col nome di “liberal shepherds” gli scrittori di poesie pastorali (altro genere assai in voga nell’Inghilterra elisabettiana), e la cerchia dei loro amici e seguaci. La loro poesia era piena di allusioni lascive: che nome avessero dato costoro al fiore qui indica-to dalla regina come facente parte della ghirlanda di Ofelia morente, non si sa; quello di “dita di morto” datogli dalle fanciulle s’accorda con la simbolicità del colore violetto che è il colore dei paramenti sacerdotali del lutto sacro e della pe-nitenza. “Gross” aveva al tempo di Shakespeare il significato, poi perduto, di “licenzioso”. Stupisce costatare che non c’è un solo traduttore italiano che abbia inteso in questo senso questi versi, e ha tradotto “shepherds” per “pastori” senza domandarsi che senso abbia applicato a “pastori”, l’aggettivo “liberal”.</note></l>
+							<l>ma che le nostre <w xml:id="a10" type="adjective">ritrose</w> <w xml:id="n17" type="noun">fanciulle</w></l>
+							<l><w xml:id="v10" type="verb" lemma="chiamare">chiaman</w> <seg xml:id="mdd1" type="modo di dire">“<w xml:id="n18" type="noun">dita</w> di <w xml:id="n19" type="noun">morto</w>”</seg>; ella lassù,</l>
+							<l>mentre <seg xml:id="v11" type="verb" lemma="arrampicarsi">si arrampicava</seg> per <w xml:id="v12" type="verb" lemma="appendere">appendere</w></l>
+							<l>l’<w xml:id="a11" type="adjective">erboree</w> sue <w xml:id="n20" type="noun">ghirlande</w> ai <w xml:id="n21" type="noun">rami</w> <w xml:id="a12" type="adjective">penduli</w>,</l>
+							<l>un <w xml:id="n22" type="noun">ramo</w>, <w xml:id="a13" type="adjective">invidioso</w>, <seg xml:id="v13" type="verb" lemma="spezzarsi">s’è spezzato</seg></l>
+							<l>e gli <w xml:id="a14" type="adjective">erbosi</w> <w xml:id="n23" type="noun">trofei</w> ed ella stessa</l>
+							<l><seg xml:id="v14" type="verb" lemma="cadere">sono caduti</seg> nel <w xml:id="a15" type="adjective">piangente</w> <w xml:id="n24" type="noun">fiume</w>.</l>
+							<l>Le sue <w xml:id="n25" type="noun">vesti</w>, <w xml:id="v15" type="verb" lemma="gonfiare">gonfiandosi</w> sull’<w xml:id="n26" type="noun">acqua</w>,</l>
+							<l>l’<seg xml:id="v16" type="verb" lemma="sostenere">han sostenuta</seg> per un poco a galla,</l>
+							<l>nel mentre ch’ella, come una <w xml:id="n27" type="noun">sirena</w>,</l>
+							<l><w xml:id="v17" type="verb" lemma="cantare">cantava</w> <w xml:id="n28" type="noun">spunti</w> d’<w xml:id="a16" type="adjective">antiche</w> <w xml:id="n28" type="noun">canzoni</w>,</l>
+							<l>come <w xml:id="a17" type="adjective">incosciente</w> della sua <w xml:id="n29" type="noun">sciagura</w></l>
+							<l>o come una <w xml:id="n30" type="noun">creatura</w> d’altro <w xml:id="n31" type="noun">regno</w></l>
+							<l>e <w xml:id="a18" type="adjective">familiare</w> con quell’<w xml:id="n32" type="noun">elemento</w>.</l>
+							<l>Ma non per molto, perché le sue <w xml:id="n33" type="noun">vesti</w></l>
+							<l><w xml:id="a19" type="adjective">appesantite</w> dall’<w xml:id="n34" type="noun">acqua</w> <w xml:id="v18" type="verb" lemma="assorbire">assorbita</w>,</l>
+							<l><w xml:id="v19" type="verb" lemma="trascinare">trascinaron</w> la <w xml:id="n35" type="noun">misera</w> dal <w xml:id="n36" type="noun">letto</w></l>
+							<l>del suo <w xml:id="n37" type="noun">canto</w> ad una <w xml:id="a20" type="adjective">fangosa</w> <w xml:id="n38" type="noun">morte</w>.</l>
+						</lg>
+					</sp>
+					<sp who="#la" xml:id="la2">
+						<speaker>LAERTE</speaker>
+						<l>Ohimè, dunque <w xml:id="v20" type="verb" lemma="annegare">annegata</w>?</l>
+					</sp>
+					<sp who="#ge" xml:id="ge3">
+						<speaker>REGINA</speaker>
+						<l>Sì, Laerte.</l>
+					</sp>
+					<sp who="#la" xml:id="la3">
+						<speaker>LAERTE</speaker>
+						<lg>
+							<l>Tropp’<w xml:id="n39" type="noun">acqua</w> è su di te, <w xml:id="a21" type="adjective">povera</w> Ofelia,</l>
+							<l>ed io perciò mi <w xml:id="v21" type="verb" lemma="interdire">interdico</w> le <w xml:id="n40" type="noun">lacrime</w>;</l>
+							<l>ma <seg xml:id="v22" type="verb" lemma="essere fatto">siam fatti</seg> così, e la <w xml:id="n41" type="noun">natura</w></l>
+							<l><w xml:id="v23" type="verb" lemma="reclamare">reclama</w> i suoi <w xml:id="n42" type="noun">diritti</w>,</l>
+							<l>pure se la <w xml:id="n43" type="noun">vergogna</w> vi <seg xml:id="v24" type="verb" lemma="opporsi">si opponga</seg>.</l>
+							<stage type="gesture">(<w xml:id="v25" type="verb" lemma="piangere">Piange</w>)</stage>
+							<l>Quando <seg xml:id="v26" type="verb" lemma="passare">saran passate</seg> queste <w xml:id="n44" type="noun">lacrime</w></l>
+							<l>non <w xml:id="v27" type="verb" lemma="avere">avrò</w> in me più nulla di <w xml:id="a22" type="adjective">femmineo</w>.</l>
+							<l><foreing lang="fr">Adieu</foreing>, mio <w xml:id="n45" type="noun">sire</w>. <w xml:id="v28" type="verb" lemma="avere">Ho</w> <w xml:id="n46" type="noun">parole</w> di <w xml:id="n47" type="noun">fuoco</w></l>
+							<l>che <w xml:id="v29" type="verb" lemma="volere">vorrebbero</w> tanto <w xml:id="v30" type="verb" lemma="fiammeggiare">fiammeggiare</w>,</l>
+							<l>ma questa <w xml:id="a23" type="adjective">folle</w> <w xml:id="n48" type="noun">sciagura</w> le <w xml:id="v31" type="verb" lemma="smorzare">smorza</w>.</l>
+						</lg>
+					</sp>
+					<stage type="exit" who="#la">(Esce)</stage>
+					<sp who="#cl" xml:id="cl1">
+						<speaker>RE</speaker>
+						<lg>
+							<l><w xml:id="v32" type="verb" lemma="seguire">Seguiamolo</w>, Gertrude. Quanto <seg xml:id="v33" type="verb" lemma="fare">ha fatto</seg></l>
+							<l>finora per <w xml:id="v34" type="verb" lemma="calmare">calmare</w> la sua <w xml:id="n49" type="noun">rabbia</w>!</l>
+							<l>Ma <w xml:id="v35" type="verb" lemma="avere">ho</w> <w xml:id="a24" type="adjective">gran</w> <w xml:id="n50" type="noun">paura</w> che quanto <seg xml:id="v36" type="verb" lemma="accadere">è accaduto</seg></l>
+							<l>gliela <w xml:id="v37" type="verb" lemma="scatenare">scateni</w> ancora.</l>
+							<l><w xml:id="v38" type="verb" lemma="essere">Sarà</w> meglio che lo <seg xml:id="mdd2" type="modo di dire"><w xml:id="v39" type="verb" lemma="tenere">teniamo</w> d’<w xml:id="n51" type="noun">occhio</w></seg>.</l>
+						</lg>
+					</sp>
+					<stage type="exit" who="#ge #cl">(Escono)</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+		
+	
+

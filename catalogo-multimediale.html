@@ -1,0 +1,355 @@
+<DOCYPE! html>
+<html lang="it">
+<head>
+	<title>Through Hamlet</title>
+	<!-- metadati charset e viewport--> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- css di bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- foglio di stile -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font di google per titolo sito -->
+	<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+</head>
+
+<body id="multimedia">
+	<header>
+		<!-- navbar -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
+		  <a class="navbar-brand" href="#">Through Hamlet</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#project">Il progetto</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Catalogo Testi
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="catalogo-testi.html">Tutti i testi</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Luoghi</a>
+		          <a class="dropdown-item" href="#">Date</a>
+		          <a class="dropdown-item" href="#">Persone</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown active">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Catalogo Multimediale
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Tutti gli item</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Luoghi</a>
+		          <a class="dropdown-item" href="#">Date</a>
+		          <a class="dropdown-item" href="#">Persone</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link">|</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Percorsi Alternativi 
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Atti e Scene</a>
+		          <a class="dropdown-item" href="#">Personaggi</a>
+		        </div>
+		      </li>
+		      <!-- scrivici -->
+		      <li class="nav-item dropdown">
+		      	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scrivici</a>
+		      	<div class="dropdown-menu">
+				  <form class="px-2 py-2">
+				    <div class="form-group">
+				      <label for="exampleDropdownFormEmail1">Nome e Cognome</label>
+				      <input class="form-control" id="exampleDropdownFormEmail1">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleDropdownFormPassword1">Indirizzo e-mail</label>
+				      <input type="email" class="form-control" id="exampleDropdownFormPassword1">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleDropdownFormPassword1">Scrivici qui</label>
+				      <input class="form-control" id="exampleDropdownFormPassword1" placeholder="Scrivi...">
+				    </div>
+				    <button type="submit" class="btn btn-primary">Invia</button>
+				  </form>
+				</div>		        		      
+		      </li>	
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Cerca</button>
+		    </form>
+		  </div>
+		</nav>
+
+		<!-- titolo -->
+		<div class="container-fluid p-3 catalogo">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Catalogo Multimediale</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb bg-transparent">
+		    <li class="breadcrumb-item"><a href="indice.html" title="Torna alla Home">Home</a></li>
+		    <li class="breadcrumb-item active text-white" aria-current="page">Tutti gli item</li>
+		  </ol>
+		</nav>
+
+	</header>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<!-- aside sinistro -->
+			<div class="col-md-2 mt-5">
+				<div class="row pl-2">
+					<h4 class="text-light mt-3">Riordina il catalogo:</h4>
+					<button type="button" class="btn btn-light active">A-Z</button>
+					<button type="button" class="btn btn-light ml-2">Z-A</button>
+					<button type="button" class="btn btn-light mt-2">Ordine cronologico</button>
+				</div>
+			</div>
+
+
+			<div class="col-md-9">
+				<!-- filtri -->
+				<div class="row">
+					<div class="col-md-12 filtri">
+						<div class="row">
+							<div class="dropdown pb-4 pr-4">
+							  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tipo di supporto</button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  	<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Immagine</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Audio</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Video</label>
+								</div>
+							  </div>
+							</div>
+
+							<div class="dropdown pb-4 pr-4">
+							  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Paese Fornitore</button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  	<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Inghilterra</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Italia</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Germania</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Spagna</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Usa</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Francia</label>
+								</div>
+							  </div>
+							</div>
+
+							<div class="dropdown pb-4">
+							  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soggetto creatore</button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							  	<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Millais, John Everett, Sir</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Coderch & Malavia</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Lafayette, James</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Thomas, Ambroise</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Rossetti, Dante Gabriel</label>
+								</div>
+								<div class="form-check">
+								  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+								  <label class="form-check-label" for="defaultCheck1">Delacroix, Eugene</label>
+								</div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- oggetti catalogati -->
+				<div class="row">
+					<div class="card-deck">
+					  <div class="card" id="ophelia">
+						  <img src="immagini/ophelia.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Ophelia</h5>
+						    <br>
+						    <p class="card-text"><span>Creatore</span><a href="http://viaf.org/viaf/51738621" title="Identificativo VIAF" target="_blank">Millais, John Everett, Sir <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 1851-1852</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> Tate Britain, Londra</p>
+						    <a href="item-opera.html" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+					  </div>
+					  <div class="card">
+						  <img src="immagini/hamlet-coderch-malavia-2018.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Hamlet</h5>
+						    <br>						  
+						    <p class="card-text"><span>Creatore</span> <a href="http://viaf.org/viaf/19150083802314942686" title="Identificativo VIAF" target="_blank">Coderch & Malavia <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 2018</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> Asociación Española de Pintores y Escultores, Madrid</p>
+						    <a href="#" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+					  </div>
+					  <div class="card">
+						  <img src="immagini/sarah-bernhardt-hamlet.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Ritratto di Sarah Bernhardt nel ruolo di Amleto</h5>
+						    <br>
+						    <p class="card-text"><span>Creatore</span> <a href="http://viaf.org/viaf/14147118250326341640" title="Identificativo VIAF" target="_blank">Lafayette, James <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 1899</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> Library of Congress's Prints and Photographs division</p>
+						    <a href="#" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+					  </div>
+					</div>
+				</div>
+				<div class="row pt-3">
+					<div class="card-deck">
+						<div class="card">
+						  <img src="immagini/lirica.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Amleto, monologo</h5>
+						    <br>
+						    <p class="card-text"><span>Creatore</span><a href="http://viaf.org/viaf/5119173" title="Identificativo VIAF" target="_blank">Thomas, Ambroise <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 1907</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> Bibliothèque nationale de France</p>
+						    <a href="#" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+						</div>					
+						<div class="card" id="rossetti">
+						  <img src="immagini/hamlet-and-ophelia-rossetti.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Amleto e Ofelia</h5>
+						    <br>
+						    <p class="card-text"><span>Creatore</span><a href="http://viaf.org/viaf/41848725" title="Identificativo VIAF" target="_blank">Rossetti, Dante Gabriel <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 1858</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> British Museum, Londra</p>
+						    <a href="#" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+						</div>
+						<div class="card">
+						  <img src="immagini/amleto-e-orazio-nel-cimitero-delacroix.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">Amleto e Orazio nel cimitero</h5>
+						    <br>
+						    <p class="card-text"><span>Creatore</span><a href="http://viaf.org/viaf/7389086" title="Identificativo VIAF" target="_blank">Delacroix, Eugene <sup>VIAF</sup></a></p>
+						    <p class="card-text"><span>Data</span> 1835</p>
+						    <p class="card-text"><span>Istituzione fornitrice</span> Staedel Museum, Francoforte, Germania</p>
+						    <a href="#" class="btn btn-danger d-block">Tutti i metadati</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">			
+			</div>
+		</div>
+	</div>
+
+
+	<!-- pagination -->
+	<nav aria-label="Page navigation example" class="mt-4">
+	  <ul class="pagination justify-content-center">
+	    <li class="page-item">
+	      <a class="page-link" href="#" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+	    <li class="page-item"><a class="page-link" href="#">2</a></li>
+	    <li class="page-item"><a class="page-link" href="#">3</a></li>
+	    <li class="page-item">
+	      <a class="page-link" href="#" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+
+	<!-- footer -->
+	<footer>
+		<div class="info container-fluid p-3">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Through Hamlet</h3>
+						<p>Il progetto è stato realizzato per la prova finale del corso di <em>Digital Humanities e Patrimonio Culturale</em>, a.a. 2020/2021, nell'ambito della laurea magistrale in Arti Visive presso l'Università di Bologna.</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Contatti</h3>
+						<p><a href="https://www.unibo.it/it" target="_blank">Alma Mater Studiorum Università di Bologna</a></p>
+						<p><a href="https://corsi.unibo.it/magistrale/artivisive" target="_blank">Dipartimento di Arti Visive</a></p>
+						<p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank">Digital Humanities e Patrimonio Culturale</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Licenze</h3>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+						<br>
+						<p class="mt-3">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+					</div>
+				</div>
+				<div class="row p-3">
+					<a href="#multimedia"><button type="button" class="btn btn-light">Torna su</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Maria Francesca Bocchi - Dipartimento di Arti Visive, Università di Bologna.</p>
+        </div>
+	</footer>
+
+	<!-- js di bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>

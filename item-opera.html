@@ -1,0 +1,306 @@
+<DOCYPE! html>
+<html lang="it">
+<head>
+	<title>Through Hamlet</title>
+	<!-- metadati charset e viewport--> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- css di bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- foglio di stile -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font di google per titolo sito -->
+	<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+	<!-- icone di bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<!-- icone di font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+
+</head>
+
+<body id="opera">
+	<header>
+		<!-- navbar -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-danger">
+		  <a class="navbar-brand" href="index.html">Through Hamlet</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="index.html" title="Home">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#" title="Introduzione al progetto">Il progetto</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Catalogo Testi">
+		          Catalogo Testi
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="catalogo-testi.html" title="Tutti i testi">Tutti i testi</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Luoghi</a>
+		          <a class="dropdown-item" href="#">Date</a>
+		          <a class="dropdown-item" href="#">Persone</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Catalogo Multimediale">
+		          Catalogo Multimediale
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="catalogo-multimediale.html" title="Tutti gli item">Tutti gli item</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Luoghi</a>
+		          <a class="dropdown-item" href="#">Date</a>
+		          <a class="dropdown-item" href="#">Persone</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link">|</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Percorsi Alternativi 
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Atti e Scene</a>
+		          <a class="dropdown-item" href="#">Personaggi</a>
+		        </div>
+		      </li>
+		      <!-- scrivici -->
+		      <li class="nav-item dropdown">
+		      	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scrivici</a>
+		      	<div class="dropdown-menu">
+				  <form class="px-2 py-2">
+				    <div class="form-group">
+				      <label for="exampleDropdownFormEmail1">Nome e Cognome</label>
+				      <input class="form-control" id="exampleDropdownFormEmail1">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleDropdownFormPassword1">Indirizzo e-mail</label>
+				      <input type="email" class="form-control" id="exampleDropdownFormPassword1">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleDropdownFormPassword1">Scrivici qui</label>
+				      <input class="form-control" id="exampleDropdownFormPassword1" placeholder="Scrivi...">
+				    </div>
+				    <button type="submit" class="btn btn-primary">Invia</button>
+				  </form>
+				</div>		        		      
+		      </li>			      
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Cerca</button>
+		    </form>
+		  </div>
+		</nav>
+		<!-- breadcrumb -->
+		<nav>
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="indice.html" title="Torna alla Home">Home</a></li>
+		    <li class="breadcrumb-item"><a href="catalogo-multimediale.html" title="Torna a tutti gli item">Tutti gli item</a></li>
+		    <li class="breadcrumb-item active text-white" aria-current="page">Ophelia Millais, John Everett, Sir</li>
+		  </ol>
+		</nav>
+	</header>
+
+	<!-- section con immagine -->
+	<section class="container">
+		<div class="card mb-3 bg-dark text-white">
+		  <div class="row">
+		    <div class="col-md-8">
+		      <img src="immagini/ophelia.jpg" width="700" height="475" title="Ophelia, Sir J.E.Millais" alt="Dipinto di Sir J.E.Millais raffigurante Ophelia annegata">
+		    </div>
+		    <div class="col-md-3">
+		      <div class="card-body pt-5">
+		        <h4 class="card-title text-light"><em class="text-white">Ophelia</em>, Sir John Everett Millais</h4>
+		        <p class="card-text text-white-50">1851-1852, olio su tela, Tate Gallery, Londra</p>
+		        <br>
+		        <a class="btn btn-light text-dark" href="https://www.tate.org.uk/art/artworks/millais-ophelia-n01506" role="button" title="Tate Gallery, London" target="_blank"><small>Scopri di più</small></a>
+		        <a href="dc.xml" type="button" class="btn btn-light text-dark mt-3" target="_blank" title="Vai al file XML con i metadati"><small>File XML/DC dell'opera <i class="fa fa-file-code-o"></i></small></a>
+		      </div>
+		    </div>
+		    <div class="col-md-1">
+		    </div>
+		  </div>
+		</div>		
+	</section>
+
+	<!-- descrizione dell'item -->
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card w-100">
+					  <div class="card-header text-center bg-dark text-light">Metadati descrittivi</div>
+					  <ul class="list-group list-group-flush">
+					  	<li class="list-group-item"><span>Tipo di oggetto</span> <a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=painting&i=2&h=10000000000#c" title="Vocabolario controllato WordNet" target="_blank">dipinto &lt; arte grafica &lt; arte <sup>WordNet</sup></a></li>
+					    <li class="list-group-item"><span>Titolo</span> Ophelia</li>
+					    <li class="list-group-item"><span>Creatore</span> <a href="http://viaf.org/viaf/51738621" title="Identificativo VIAF" target="_blank">Millais, John Everett, Sir <sup>VIAF</sup></a><button class="btn btn-danger float-right mt-3" href="#" type="button"><small>Vai alla scheda persona</small></button></li>
+					    <li class="list-group-item"><span>Data</span> <a href="#" title="1851-1852">1851-1852</a><button class="btn btn-danger float-right mt-3" href="#" type="button"><small>Vai alla linea del tempo</small></button></li>
+					    <li class="list-group-item"><span>Dimensioni</span> 76,2x111,8 cm</li>
+					    <li class="list-group-item"><span>Materiali e Tecniche</span><a href="http://www.getty.edu/vow/AATFullDisplay?find=oil&logic=AND&note=&english=N&prev_page=4&subjectid=300178684" title="Vocabolario controllato Getty" target="_blank"> olio su tela <sup>AAT</sup></a></li>
+					    <li class="list-group-item"><span>Argomento</span> <ul><li>personaggi femminili</li><li>morte</li><li>annegamento</li><li>fiume</li><li>flora acquatica</li></ul></li>					    
+					    <li class="list-group-item"><span>Luogo di conservazione</span> <a href="https://www.geonames.org/6695209/tate-britain.html" title="identificativo GeoNames" target="_blank">Tate Britain, Londra <sup>GeoNames</sup></a></a><button class="btn btn-danger float-right mt-3" href="#" type="button"><small>Vai alla mappa dei luoghi</small></button></li>
+					    <li class="list-group-item"><span>Numero di identificazione</span> N01506</li>
+					  </ul>
+					</div>
+				</div>
+				<!-- navigazione aside persone -->
+				<aside class="col-md-6">
+					<div class="container p-2 mb-0">
+						<h3 class="mt-2">Scopri anche</h3>
+						<div class="card mt-2">
+						  <div class="row no-gutters">
+						    <div class="col-md-4">
+						      <img src="immagini/siddal.jpg">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body ml-5 mt-4">
+						        <h4 class="card-title mb-3 ml-3"><em>Elizabeth Siddal</em></h4>
+						        <p class="card-text ml-3"><b>Elizabeth Eleanor Siddal</b> (1829–1862), conosciuta anche con il diminutivo <em>Lizzy</em> o <em>Lizzie</em>, è stata una modella, poetessa e pittrice inglese.</p>
+						        <a class="btn btn-dark btn-block ml-3" href="item-persona.html" role="button"><small>Vai alla scheda</small></a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="card mt-2">
+						  <div class="row no-gutters">
+						    <div class="col-md-4">
+						      <img src="immagini/millais.jpg">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body ml-5 mt-4">
+						        <h4 class="card-title mb-3 ml-3"><em>Sir John Everett Millais</em></h4>
+						        <p class="card-text ml-3"><b>Sir John Everett Millais</b> (1829-1896) è stato un pittore e illustratore inglese dell'età vittoriana, cofondatore della Confraternita dei Preraffaelliti.</p>
+						        <a class="btn btn-dark btn-block ml-3" href="#" role="button"><small>Vai alla scheda</small></a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>						
+				</aside>
+			</div>
+		</div>
+	</div>
+	<!-- altri tools di navigazione -->
+	<article class="container mt-3">
+		<div class="container p-3">
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Scopri dove si trova l'opera</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.21964950778!2d-0.1291330848004117!3d51.49083661973603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI5JzI3LjAiTiAwwrAwNyczNy4wIlc!5e0!3m2!1sit!2sit!4v1623410520456!5m2!1sit!2sit" width="350" height="430" loading="lazy"></iframe>
+				</div>
+				<div class="col-md-4">
+					<h4>Ofelia nell'arte</h4>
+					<div id="carouselExampleCaptions" class="carousel slide ml-3" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="immagini/ophelia-dicksee.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Ophelia, Thomas Francis Dicksee, c.1864</h5>
+					        <button class="btn btn-danger" href="#" target="_blank" role="button"><small>Vai alla scheda</small></button>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="immagini/mignon-nevada-as-ophelia.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Mignon Nevada nel ruolo di Ofelia nell'opera "Amleto" di Ambroise Thomas, 1910</h5>
+					        <button class="btn btn-danger" href="#" target="_blank" role="button"><small>Vai alla scheda</small></button>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="immagini/ophelia-rae.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Ophelia, Henrietta Rae, 1890</h5>
+					        <button class="btn btn-danger" href="#" target="_blank" role="button"><small>Vai alla scheda</small></button>
+					      </div>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h4>Altro su <em>Ophelia</em></h4>						
+						<ul class="list-unstyled bg-dark text-light rounded">
+						  <a href="https://g.co/arts/TQ5sRQ3aMuq9Xzro7" title="Ophelia su Google Arts&Culture" target="_blank">
+						  	<li class="media p-2">
+							    <img src="immagini/icona-google-art.jpg" class="mr-2" alt="Logo Google Arts&Culture">
+							    <div class="media-body">
+							      <h5 class="text-left">Google Arts&Culture</h5>
+							      <p>Esplora il dipinto su Google Arts&Culture.</p>
+							    </div>
+						  	</li>
+						  </a>
+						  <a href="https://www.tate.org.uk/art/artworks/millais-ophelia-n01506/story-ophelia" title="Ophelia su Tate.uk" target="_blank">
+							  <li class="media p-2">
+							    <img src="immagini/icona-tate.png" class="mr-2" alt="Logo Tate.uk">
+							    <div class="media-body">
+							      <h5 class="text-left">Tate Britain</h5>
+							      <p>Esplora il dipinto osservando il soggetto, i materiali e le tecniche sul sito ufficiale del museo.</p>
+							    </div>
+							  </li>
+							</a>
+						</ul>
+					<iframe width="340" height="200" src="https://www.youtube.com/embed/pTOC_q0NLTk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="mr-3 mt-1"></iframe>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- footer -->
+	<footer>
+		<div class="info container-fluid p-3 mt-3">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Through Hamlet</h3>
+						<p>Il progetto è stato realizzato per la prova finale del corso di <em>Digital Humanities e Patrimonio Culturale</em>, a.a. 2020/2021, nell'ambito della laurea magistrale in Arti Visive presso l'Università di Bologna.</p>
+					</div>
+					<div class="col-md-4">
+						<h3>Contatti</h3>
+						<p><a href="https://www.unibo.it/it" target="_blank">Alma Mater Studiorum Università di Bologna</a></p>
+						<p><a href="https://corsi.unibo.it/magistrale/artivisive" target="_blank">Dipartimento di Arti Visive</a></p>
+						<p><a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/423307" target="_blank">Digital Humanities e Patrimonio Culturale</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Licenze</h3>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+						<br>
+						<p class="mt-3">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+					</div>
+				</div>
+				<div class="row p-3">
+					<a href="#opera"><button type="button" class="btn btn-light">Torna su</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid bg-light">
+            <p class="text-center text-dark mb-0 p-2">&copy; Copyright 2021 Maria Francesca Bocchi - Dipartimento di Arti Visive, Università di Bologna.</p>
+        </div>
+	</footer>
+
+	<!-- js di bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
