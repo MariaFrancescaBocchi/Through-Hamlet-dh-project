@@ -1,87 +1,3 @@
-body {
-	font-family: Arial;
-	font-size: 16px;
-}
-
-h2 {
-	font-size: 35px;
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
-	color: #F5F5F5;
-	padding: 20px;
-}
-
-h3 {
-	font-size: 30px;
-	color: #F5F5F5;
-}
-
-.percorsi {
-	background-color: #950E17;
-	padding: 30px;
-	color: #F5F5F5;
-	text-align: justify;
-}
-
-.progetto, .cataloghi {
-	background-color: #34090C;
-	padding: 30px;
-	color: #F5F5F5;
-	text-align: justify;
-}
-
-#titolo {
-	padding:30px;
-	background-image: url(https://www.bl.uk/treasures/shakespeare/images/add42518f422vlge.jpg);
-}
-
-#titolo h1 {
-	color: #330000;
-	font-family: 'Amita';
-	font-size: 100px;
-	text-align: center;
-	text-shadow: 2px 2px 5px #990000;
-}
-
-.navbar-brand {
-	color: #330000;
-	font-family: 'Amita';
-	font-size: 20px;
-	text-align: center;
-	text-shadow: 2px 2px 5px #990000;
-}
-
-.card-img-top {
-	width: auto;
-	height: 400px;
-}
-
-.copertina img {
-	height: auto;
-	width: 100%;
-}
-
-footer a {
-	color: 	#F5F5F5;
-	text-decoration: underline;
-}
-
-footer a:hover {
-	color: #808080;
-}
-
-footer .info {
-	background-color: #101010;
-	color: 	#F5F5F5;
-	text-align: justify;
-}
-
-footer h3{
-	text-align: center;
-	font-style: bold;
-}
-
 a {
 	text-decoration: none;
 	color: #EE5862;
@@ -92,43 +8,26 @@ a:hover {
 	color: #34090C;
 }
 
-
-
-.catalogo {
-	background-color: #670A10;
+article .container {
+	background-color: #F37C84;
+	border-radius: 6px;
 }
 
-.catalogo h2{
-	color: #EF4E58;
-	text-shadow: 2px 2px #892a2a; 
-}
-
-nav .breadcrumb {
-	font-size: 14px;
-	background-color: transparent;
-	margin-bottom: 5px;
-	width: 30%;
-	display: block;
-}
-
-.card span {
-	display: inline-block;
-	width: 250px;
-	font-weight: bold;
-}
-
-h5 {
+article h4 {
 	text-align: center;
-	font-size: 16px;
+	padding: 15px;
+}
+
+article a, article a:hover, .altro a, .altro a:hover {
+	color: white;
+}
+
+article h4, aside h3 {
+	font-family: 'Amita';
+	color: #950E17;
 	font-weight: bold;
-}
-
-#opera, #persona, #multimedia, #testi {
-	background-color: #950E17;
-}
-
-section .card-title {
-	font-size: 20px;
+	font-size: 25px;
+	text-align: center;
 }
 
 aside img {
@@ -154,23 +53,121 @@ aside .container {
 	border-radius: 6px;
 }
 
-article .container {
-	background-color: #F37C84;
-	border-radius: 6px;
+body {
+	font-family: Arial;
+	font-size: 16px;
 }
 
-article h4 {
+footer a {
+	color: 	#F5F5F5;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #808080;
+}
+
+footer .info {
+	background-color: #101010;
+	color: 	#F5F5F5;
+	text-align: justify;
+}
+
+footer h3{
 	text-align: center;
-	padding: 15px;
+	font-style: bold;
+}
+
+h2 {
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #F5F5F5;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #F5F5F5;
+}
+
+h5 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 iframe, .carousel-inner {
 	border-radius: 6px;
 }
 
-#carouselExampleCaptions {
-	height: 430px;
+nav .breadcrumb {
+	font-size: 14px;
+	background-color: transparent;
+	margin-bottom: 5px;
+	width: 30%;
+	display: block;
+}
 
+section h2 {
+	font-style: bold;
+	font-size: 20px;
+	text-align: left;
+}
+
+section .card-title {
+	font-size: 20px;
+}
+
+
+.altro p {
+	width: 180px;
+}
+
+.bottone {
+	width: 260px;
+	margin-left: -100px;	
+}
+
+.card-deck img {
+	object-fit: cover;
+	object-position: center;
+}
+
+.card-deck div .card-body {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.card-deck a {
+	margin-top: auto;
+}
+
+.card-img-top {
+	width: auto;
+	height: 400px;
+}
+
+.copertina img {
+	height: auto;
+	width: 100%;
+}
+
+.catalogo {
+	background-color: #670A10;
+}
+
+.catalogo h2{
+	color: #EF4E58;
+	text-shadow: 2px 2px #892a2a; 
+}
+
+.card span {
+	display: inline-block;
+	width: 250px;
+	font-weight: bold;
 }
 
 .carousel img {
@@ -193,6 +190,11 @@ iframe, .carousel-inner {
 	font-style: italic;
 }
 
+.form-check {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .media img {
 	width: 25%;
 	height: 25%;
@@ -205,44 +207,12 @@ iframe, .carousel-inner {
 	text-align: left;
 }
 
-article a, article a:hover, .altro a, .altro a:hover {
-	color: white;
-}
-
-article h4, aside h3 {
+.navbar-brand {
+	color: #330000;
 	font-family: 'Amita';
-	color: #950E17;
-	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
-}
-
-#persona .carousel img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	object-position: center;	
-
-}
-
-#carouselExampleIndicators {
-	height: 500px;
-}
-
-#controllo {
-	height: 250px;
-}
-
-#controllo ul {
-	list-style: square;
-	margin-top: 15px;
-	font-size: 15px;
-}
-
-#introduzione a, #introduzione a:hover{
-	color: white;
-	text-decoration: underline;
-	float: right;
+	text-shadow: 2px 2px 5px #990000;
 }
 
 .opere img {
@@ -254,47 +224,6 @@ article h4, aside h3 {
 
 .opere h5 {
 	font-size: 15px;
-}
-
-.altro p {
-	width: 180px;
-}
-
-section h2 {
-	font-style: bold;
-	font-size: 20px;
-	text-align: left;
-}
-
-.bottone {
-	width: 260px;
-	margin-left: -100px;
-	
-}
-
-.card-deck img {
-	object-fit: cover;
-	object-position: center;
-}
-
-.card-deck div .card-body {
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
-}
-
-.card-deck a {
-	margin-top: auto;
-}
-
-#ophelia img {
-	object-fit: cover;
-	object-position: 35% 65%;
-}
-
-#rossetti img {
-	object-fit: cover;
-	object-position: 90% 10%;
 }
 
 .page-item.active .page-link {
@@ -313,6 +242,93 @@ section h2 {
 	color: #950E17;
 }
 
+.percorsi {
+	background-color: #950E17;
+	padding: 30px;
+	color: #F5F5F5;
+	text-align: justify;
+}
+
+.percorsi .dropdown-menu {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.progetto, .cataloghi {
+	background-color: #34090C;
+	padding: 30px;
+	color: #F5F5F5;
+	text-align: justify;
+}
+
+
+#carouselExampleCaptions {
+	height: 430px;
+}
+
+#carouselExampleIndicators {
+	height: 500px;
+}
+
+#carouselExampleSlidesOnly .carousel-item {
+	height: 500px; 
+}
+
+#controllo {
+	height: 250px;
+}
+
+#controllo ul {
+	list-style: square;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+#introduzione a, #introduzione a:hover{
+	color: white;
+	text-decoration: underline;
+	float: right;
+}
+
+#ophelia img {
+	object-fit: cover;
+	object-position: 35% 65%;
+}
+
+#opera, #persona, #multimedia, #testi {
+	background-color: #950E17;
+}
+
+#opera .list-group-item ul {
+	list-style: none;
+	margin-left: 215px;
+}
+
+#persona .carousel img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;	
+}
+
+#rossetti img {
+	object-fit: cover;
+	object-position: 90% 10%;
+}
+
+#titolo {
+	padding:30px;
+	background-image: url(https://www.bl.uk/treasures/shakespeare/images/add42518f422vlge.jpg);
+}
+
+#titolo h1 {
+	color: #330000;
+	font-family: 'Amita';
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #990000;
+}
+
 #testi .card-title, #multimedia .card-title {
 	height: 80px;
 	color: #750b12;
@@ -321,21 +337,6 @@ section h2 {
 	padding-top: 25px;
 }
 
-.form-check {
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
-#carouselExampleSlidesOnly .carousel-item {
-	height: 500px; 
-}
 
-.percorsi .dropdown-menu {
-	font-size: 13px;
-	font-style: italic;
-}
 
-#opera .list-group-item ul {
-	list-style: none;
-	margin-left: 215px;
-}
